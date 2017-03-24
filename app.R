@@ -11,10 +11,9 @@ library(shiny)
 library(ggplot2)
 
 # Read Data
-setwd("E:/RWorkingDirectory")
-GlobalData <- read.csv("./data/World_Temperatures/GLBTs_dSST.csv", stringsAsFactors = FALSE)
-NorthPoleData <- read.csv("./data/World_Temperatures/NHTs_dSST.csv", stringsAsFactors = FALSE)
-SouthPoleData <- read.csv("./data/World_Temperatures/SHTs_dSST.csv", stringsAsFactors = FALSE)
+GlobalData <- read.csv("data/GLBTs_dSST.csv", stringsAsFactors = FALSE)
+NorthPoleData <- read.csv("data/NHTs_dSST.csv", stringsAsFactors = FALSE)
+SouthPoleData <- read.csv("data/SHTs_dSST.csv", stringsAsFactors = FALSE)
 
 #print(str(TemperatureData))
 
@@ -22,7 +21,7 @@ SouthPoleData <- read.csv("./data/World_Temperatures/SHTs_dSST.csv", stringsAsFa
 ui <- fluidPage(
    
    # Application title
-   titlePanel(title = h3("Analysis of Temperature", align="center")),
+   titlePanel(title = h3("GISS Surface Temperature Analysis", align="center")),
    br(),   br(),
    sidebarLayout(
            sidebarPanel(
@@ -49,10 +48,10 @@ ui <- fluidPage(
                                multiple=TRUE, selected = "Jan"
                                ),
                    
-                   br(),   br(),
+                   br(),   br()
                    #------------------------------------------------------------------
                    # Change background color for body
-                   tags$style("body{background-color:lightyellow; color:brown}")
+                   #tags$style("body{background-color:lightyellow; color:brown}")
            ),
            
            mainPanel(
