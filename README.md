@@ -1,6 +1,6 @@
 <h3>This is Coursera Developing Data Products Week 4 Assignment.
 
-<h4>The First objective is to create Shiny Application :<br>
+<h4>The First objective is to create Shiny Application :<br><br><br>
 
   <p>• Was there enough documentation on the shiny site for a user to get started using the application?
   <p>• Did the application run as described in the documentation?
@@ -13,7 +13,7 @@
     a similar layout would be fine.
   <p>• Here's your opportunity to give the app +1 for being well done, or neat, or even just a solid effort.
 
-<h4>The Second objective is to create Reproducible Pitch :<br>
+<h4>The Second objective is to create Reproducible Pitch :<br><br><br>
 
   <p>• Was the presentation completed in slidify or R Presenter?
   <p>• Was it 5 pages?
